@@ -10,7 +10,7 @@ namespace AdventOfCode2022
         {
             const string input = "puzzle_inputs/day1_1";
 
-            var puzzleInput = InputListGenerator.readInputFileAsIntegers(input);
+            var puzzleInput = InputListGenerator.readInputFileAsInt32s(input);
 
             var calorieList = new List<Int32>();
 

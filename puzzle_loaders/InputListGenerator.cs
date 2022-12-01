@@ -6,7 +6,7 @@ namespace AdventOfCode2022
 {
     public class InputListGenerator
     {
-        public static List<Int32> readInputFileAsIntegers(String filepath)
+        public static List<Int32> readInputFileAsInt32s(String filepath)
         {
             List<Int32> returnList = new List<Int32>();
             using (var sr = new StreamReader(filepath))
