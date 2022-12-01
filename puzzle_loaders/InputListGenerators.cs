@@ -23,14 +23,9 @@ namespace AdventOfCode2022
                     {
                         returnList.Add(0);
                     }
-
                 }
-
             }
-
             return returnList;
-
-
         }
     }
 }
