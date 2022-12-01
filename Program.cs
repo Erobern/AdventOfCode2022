@@ -11,10 +11,10 @@ namespace AdventOfCode2022
                 switch (args[0])
                 {
                     case "day1_1":
-                        Day1_1.SolveDay();
+                        Day1.SolveDay_Puzzle1();
                         break;
                     case "day1_2":
-                        Day1_2.SolveDay();
+                        Day1.SolveDay_Puzzle2();
                         break;
                     default:
                         System.Console.WriteLine("Command not recognized");
