@@ -4,7 +4,7 @@ using System.IO;
 
 namespace AdventOfCode2022
 {
-    public class InputListGenerator
+    public class InputListGenerators
     {
         public static List<Int32> readInputFileAsInt32s(String filepath)
         {
