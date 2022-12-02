@@ -29,7 +29,7 @@ namespace AdventOfCode2022
             return returnList;
         }
 
-        public static List<KeyValuePair<String, String>> readInputFileAsStringStringList(String filepath)
+        public static List<KeyValuePair<String, String>> readInputFileAsStringStringKVPList(String filepath)
         {
             List<KeyValuePair<String, String>> returnList = new List<KeyValuePair<string, string>>();
             using (var sr = new StreamReader(filepath))

@@ -10,7 +10,7 @@ namespace AdventOfCode2022
         {
             const string input = "puzzle_inputs/day2";
 
-            var puzzleInput = InputListGenerators.readInputFileAsStringStringList(input);
+            var puzzleInput = InputListGenerators.readInputFileAsStringStringKVPList(input);
 
             // x = rock, y = paper, z = scissors
             // a = rock, b = paper, c = scissors
@@ -42,7 +42,7 @@ namespace AdventOfCode2022
         {
             const string input = "puzzle_inputs/day2";
 
-            var puzzleInput = InputListGenerators.readInputFileAsStringStringList(input);
+            var puzzleInput = InputListGenerators.readInputFileAsStringStringKVPList(input);
 
             // X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win.
             // a = rock, b = paper, c = scissors
