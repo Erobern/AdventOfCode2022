@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace AdventOfCode2022
 {
@@ -25,6 +26,22 @@ namespace AdventOfCode2022
                     }
                 }
             }
+            return returnList;
+        }
+
+        public static List<KeyValuePair<String, String>> readInputFileAsStringStringList(String filepath)
+        {
+            List<KeyValuePair<String, String>> returnList = new List<KeyValuePair<string, string>>();
+            using (var sr = new StreamReader(filepath))
+            {
+                var inputFile = File.ReadAllLines(filepath);
+                foreach (string line in inputFile)
+                {
+                    var split = line.Split(" ");
+                    returnList.Add(new KeyValuePair<string, string>(split[0], split[1]));
+                }
+            }
+
             return returnList;
         }
     }

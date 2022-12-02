@@ -16,6 +16,12 @@ namespace AdventOfCode2022
                     case "day1_2":
                         Day1.SolveDay_Puzzle2();
                         break;
+                    case "day2_1":
+                        Day2.SolveDay_Puzzle1();
+                        break;
+                    case "day2_2":
+                        Day2.SolveDay_Puzzle2();
+                        break;
                     default:
                         System.Console.WriteLine("Command not recognized");
                         break;
